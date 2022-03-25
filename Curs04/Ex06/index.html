@@ -16,7 +16,157 @@
 </head>
 
 <body>
+  <h1>New Address</h1>
 
+  <h2>Useful links</h2>
+  <h2>Address Form</h2>
+  <p><b>Please provide a valid address</b>, otherwise we will not be able to send your stuff.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem necessitatibus adipisci maiores asperiores,
+    repudiandae maxime porro temporibus eveniet nihil excepturi!</p>
+  <p>
+    <img
+      src="images/new_address.jpg"
+      alt="green mail box with red flag"
+    >
+  </p>
+
+  <form action="#">
+    <fieldset>
+      <legend>Address Information:</legend>
+    </fieldset>
+
+    <label for="male">Male</label>
+    <input
+      type="radio"
+      name="gender"
+      id="male"
+      value="male"
+      checked
+    >
+    <label for="female">Female</label>
+    <input
+      type="radio"
+      name="gender"
+      id="female"
+      value="female"
+    >
+    <label for="na">N/A</label>
+    <input
+      type="radio"
+      name="gender"
+      id="na"
+      value="na"
+    >
+
+    <label for="name">Name*</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      placeholder="Name"
+      required
+    >
+    <label for="surname">Surname*</label>
+    <input
+      type="text"
+      name="surname"
+      id="surname"
+      placeholder="Surname"
+      required
+    >
+
+    <label for="phone">Phone*</label>
+    <input
+      type="tel"
+      name="phone"
+      id="phone"
+      placeholder="Phone"
+      required
+    >
+
+    <label for="address1">Adress 1*</label>
+    <input
+      type="text"
+      name="address1"
+      id="address1"
+      placeholder="Address Line 1"
+      required
+    >
+    <label for="address2">Address 2</label>
+    <input
+      type="text"
+      name="address2"
+      id="address2"
+      placeholder="Address Line 2"
+    >
+    <label for="city">City*</label>
+    <input
+      type="text"
+      name="city"
+      id="city"
+      placeholder="City"
+      required
+    >
+
+    <label for="state">State*</label>
+    <select
+      name="state"
+      id="state"
+      required
+    >
+      <option value=""> --Choose state-- </option>
+      <option value="Alberta">Alberta</option>
+      <option value="British Columbia">British Columbia</option>
+      <option
+        value="New Brunswick"
+        New
+        Brunswick
+      >New Brunswick</option>
+      <option value="Nova Scotia">Nova Scotia</option>
+    </select>
+
+    <label for="postcode">Postcode*</label>
+    <input
+      type="text"
+      name="postcode"
+      id="postcode"
+      placeholder="Postcode"
+      required
+    >
+
+    <label for="gdpr-consent">Gdpr-consent*</label>
+    <input
+      type="checkbox"
+      name="gdpr-consent"
+      id="gdpr-consent"
+    >
+
+    <button
+      type="submit"
+      name="submit"
+      id="submit"
+    >Submit</button>
+
+    <button
+      type="reset"
+      name="reset"
+      id="reset"
+    >Reset</button>
+
+    <ul>
+      <li><a
+          href="https://www.google.com/maps"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Google</a></li>
+      <li><a
+          href="https://www.coduripostale.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Coduri postale</a></li>
+    </ul>
+
+  </form>
 
   <div
     class="pixeltab-host"
