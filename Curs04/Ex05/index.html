@@ -16,193 +16,204 @@
 </head>
 
 <body>
+  <p>
+    <a
+      href="https://www.yahoo.com"
+      title="Home"
+    >Home</a> |
+
+    <a
+      href="https://www.google.com"
+      title="Create Account"
+    ><b>Create Account</b></a> |
+
+    <a
+      href="https://www.facebook.com"
+      title="Your account"
+    >Your account</a> |
+
+    <a
+      href="https://www.tinder.com"
+      title="Customer Service"
+    >Customer Service</a> |
+
+    <a
+      href="https://www.sinfest.net"
+      title="Contact"
+    >Contact</a>
+  </p>
+
   <h1>Create Account</h1>
 
-  <h2>Create an account</h2>
-  <p>This is your account section.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
   <p>
     <img
       src="images/your-account.jpg"
       alt="your account"
     >
   </p>
+  <p>This is your account section.</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum architecto ullam, molestias suscipit in aliquam sit
+    ea deleniti, ex obcaecati veniam tempore odit dicta.</p>
 
+  <h2>Create an account</h2>
   <form action="#">
     <fieldset>
       <legend>Account data:</legend>
-    </fieldset>
 
-    <label for="subscribe"><i>we will send you emails</i></label>
-    <!--<label for="terms"><a href="#">terms and conditions</a></label> -->
+      <!--<label for="terms"><a href="#">terms and conditions</a></label> -->
 
-    <p>
-      <img
-        src="images/thank_you.jpg"
-        alt="thank you"
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
       >
-    </p>
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      ><br><br>
 
-    <label for="male">Male</label>
-    <input
-      type="radio"
-      name="gender"
-      id="male"
-      value="male"
-      checked
-    >
-    <label for="female">Female</label>
-    <input
-      type="radio"
-      name="gender"
-      id="female"
-      value="female"
-    >
-    <label for="na">N/A</label>
-    <input
-      type="radio"
-      name="gender"
-      id="na"
-      value="na"
-    >
-
-    <label for="name">Name*</label>
-    <input
-      type="text"
-      name="name"
-      id="name"
-      placeholder="Name"
-      required
-    >
-    <label for="surname">Surname*</label>
-    <input
-      type="text"
-      name="surname"
-      id="surname"
-      placeholder="Surname"
-      required
-    >
-    <label for="username">Username*</label>
-    <input
-      type="text"
-      name="username"
-      id="username"
-      placeholder="Username"
-      required
-    >
-
-    <label for="email">Email*</label>
-    <input
-      type="email"
-      name="email"
-      id="email"
-      placeholder="Email"
-      required
-    >
-
-    <label for="password">Password*</label>
-    <input
-      type="password"
-      name="password"
-      id="password"
-      placeholder="Password"
-      required
-    >
-
-    <label for="password-confirm">Confirm Password*</label>
-    <input
-      type="password"
-      name="password-confirm"
-      id="password-confirm"
-      placeholder="Confirm Password"
-      required
-    >
-
-    <label for="terms">
-      <a
-        href="#"
-        title="terms and conditions"
-      >terms and conditions</a>*
-    </label>
-    <input
-      type="checkbox"
-      name="terms"
-      id="terms"
-      required
-    >
-
-    <label for="subscribe">Subscribe*</label>
-    <input
-      type="checkbox"
-      name="subscribe"
-      id="subscribe"
-    >
-    <label for="gdpr-consent">Gdpr-consent*</label>
-    <input
-      type="checkbox"
-      name="gdpr-consent"
-      id="gdpr-consent"
-    >
-
-    <button
-      type="submit"
-      name="submit"
-      id="submit"
-    >Submit</button>
-
-    <button
-      type="reset"
-      name="reset"
-      id="reset"
-    >Reset</button>
-
-    <p>
-      <a
-        href="https://www.google.com"
-        title="Create Account"
-      ><b>Create Account</b></a>
-      <a
-        href="https://www.facebook.com"
-        title="Your account"
-      >Your account</a>
-      <a
-        href="https://www.tinder.com"
-        title="Customer Service"
-      >Customer Service</a>
-      <a
-        href="https://www.sinfest.net"
-        title="Contact"
-      >Contact</a>
-      <a
-        href="https://www.yahoo.com"
-        title="Home"
-      >Home</a>
-    </p>
-    <p>
-      <a
-        href="https://www.google.com"
-        title="Create Account"
-      ><b>Create Account</b></a>
-      <a
-        href="https://www.facebook.com"
-        title="Your account"
-      >Your account</a>
-      <a
-        href="https://www.tinder.com"
-        title="Customer Service"
-      >Customer Service</a>
-      <a
-        href="https://www.sinfest.net"
-        title="Contact"
-      >Contact</a>
-      <a
-        href="https://www.yahoo.com"
-        title="Home"
-      >Home</a>
-    </p>
+      <label for="name">*Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">*Surname:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      ><br><br>
+      <label for="username">*Username:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Username"
+        required
+      ><br><br>
 
 
+      <label for="email">*Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      ><br><br>
+
+      <label for="password">*Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+        required
+      ><br><br>
+
+      <label for="password-confirm">*Confirm Password:</label>
+      <input
+        type="password"
+        name="password-confirm"
+        id="password-confirm"
+        placeholder="Confirm Password"
+        required
+      ><br><br>
+
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        required
+      >
+      <label for="terms">
+        * You are required to agree to the<label for="terms">
+          <a
+            href="#"
+            title="terms and conditions"
+          >terms and conditions</a>
+        </label>
+      </label><br>
+
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+      >
+      <label for="subscribe">Agree to this and <label for="subscribe"><i>we will send you emails</i></label></label><br>
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+      <label for="gdpr-consent">GDPR generic consent?</label><br><br>
+
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >Create Account</button>
+
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
+    </fieldset>
   </form>
+
+  <p>
+    <img
+      src="images/thank_you.jpg"
+      alt="thank you"
+    >
+  </p>
+
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam debitis, delectus tempora mollitia aspernatur
+    officiis voluptates quis omnis atque minus asperiores tenetur. Ex at ipsam recusandae, nisi deleniti modi magni.</p>
+
+  <p>
+    <a
+      href="https://www.yahoo.com"
+      title="Home"
+    >Home</a> |
+    <a
+      href="https://www.google.com"
+      title="Create Account"
+    ><b>Create Account</b></a> |
+    <a
+      href="https://www.facebook.com"
+      title="Your account"
+    >Your account</a> |
+    <a
+      href="https://www.tinder.com"
+      title="Customer Service"
+    >Customer Service</a> |
+    <a
+      href="https://www.sinfest.net"
+      title="Contact"
+    >Contact</a>
+
+  </p>
 
 
   <div
