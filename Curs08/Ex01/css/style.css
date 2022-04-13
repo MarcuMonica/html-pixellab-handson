@@ -31,7 +31,7 @@ b {
   color: yellow;
 }
 
-i {
+p i {
   color: blue;
   text-decoration: line-through;
   font-weight: bold;
