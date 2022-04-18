@@ -9,6 +9,7 @@
   top: 0;
   right: 0;
   background-color: black;
+  padding: 8px;
   z-index: 1;
 }
 
@@ -16,25 +17,32 @@
   color: #fff;
 }
 
-.legend {
-  background-color: grey;
-  border: 1px solid red;
-  position: absolute;
-}
-
-.sub {
-  position: relative;
-  bottom: 1px;
-}
-
 .nav-bottom {
   position: fixed;
   background-color: green;
   left: 0;
   bottom: 0;
+  padding: 5px;
   z-index: 1;
 }
 
 .nav-bottom a {
   color: #fff;
+}
+
+.container {
+  position: relative;
+}
+
+.container .legend {
+  background-color: grey;
+  border: 1px solid red;
+  position: absolute;
+  top: -10px;
+}
+
+.container .sub {
+  font-size: 12px;
+  position: relative;
+  bottom: -3px;
 }
