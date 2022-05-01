@@ -4,7 +4,7 @@ p i {
 
 p:hover i {
   top: -2px;
-  right: -2px;
+  left: 2px;
 }
 
 .main a:hover {
@@ -34,9 +34,4 @@ p b {
 p:hover b {
   top: -2px;
   color: red;
-}
-
-p:hover i{
-  left:2px;
-  bottom: 2px;
 }
